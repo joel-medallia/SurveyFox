@@ -27,11 +27,14 @@ let package = Package(
 
 
     targets: [
-        .binaryTarget(
-            name: "SenseQuinoaLib",
+        Target(
+            name: "Source",
             dependencies: [
                 "SJ",
-            ],
+            ]),
+        .binaryTarget(
+            name: "SenseQuinoaLib",
             path: "SenseQuinoaLib.xcframework")
+
     ]
 )
