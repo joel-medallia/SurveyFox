@@ -31,7 +31,7 @@ let package = Package(
             name: "Source",
             dependencies: [
                 "SJ",
-            ]),
+            ], path: "Sources")),
         .binaryTarget(
             name: "SenseQuinoaLib",
             path: "SenseQuinoaLib.xcframework")
