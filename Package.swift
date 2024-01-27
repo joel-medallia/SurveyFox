@@ -9,6 +9,11 @@ let package = Package(
         .iOS(.v12)
     ],
 
+
+    products: [
+        .library(name: "medallia-sense360-ios-sdk", targets: ["SenseQuinoaLib"])
+    ],
+
     dependencies: [
         // Here we define our package's external dependencies
         // and from where they can be fetched:
@@ -18,9 +23,8 @@ let package = Package(
         )
     ],
 
-    products: [
-        .library(name: "medallia-sense360-ios-sdk", targets: ["SenseQuinoaLib"])
-    ],
+
+
     targets: [
         .binaryTarget(
             name: "SenseQuinoaLib",
