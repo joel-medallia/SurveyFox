@@ -23,11 +23,7 @@ let package = Package(
             name: "Dummy",
             dependencies: [
                 "SwiftyJSON"
-            ], path: "Source"),
-        .binaryTarget(
-            name: "SenseQuinoaLib",
-            path: "SenseQuinoaLib.xcframework")
-
+            ], path: "Source")
     ]
 )
 
