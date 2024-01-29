@@ -15,14 +15,14 @@ let package = Package(
     dependencies: [
         // Here we define our package's external dependencies
         // and from where they can be fetched:
-        .package(name: "SJ", url: "https://github.com/SwiftyJSON/SwiftyJSON.git", from: "5.0.1")
+        .package(name: "SwiftyJSON", url: "https://github.com/SwiftyJSON/SwiftyJSON.git", from: "5.0.1")
     ],
 
     targets: [
         .target(
             name: "Dummy",
             dependencies: [
-                "SJ"
+                "SwiftyJSON"
             ], path: "Source"),
         .binaryTarget(
             name: "SenseQuinoaLib",
