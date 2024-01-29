@@ -20,10 +20,14 @@ let package = Package(
 
     targets: [
         .target(
-            name: "Dummy",
+            name: "medallia-sense360-ios-sdk",
             dependencies: [
                 "SwiftyJSON"
-            ], path: "Source")
+            ], path: "Source"),
+        .binaryTarget(
+            name: "SenseQuinoaLib",
+            path: "SenseQuinoaLib.xcframework")
+
     ]
 )
 
