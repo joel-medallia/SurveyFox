@@ -1,0 +1,5 @@
+import SwiftyJSON
+
+class Dummy {
+    
+}
