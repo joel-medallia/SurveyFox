@@ -15,7 +15,7 @@ let package = Package(
     dependencies: [
         // Here we define our package's external dependencies
         // and from where they can be fetched:
-        .package(name: "SJ", url: "https://github.com/SwiftyJSON/SwiftyJSON.git", from("5.0.1"))
+        .package(name: "SJ", url: "https://github.com/SwiftyJSON/SwiftyJSON.git", from: "5.0.1")
     ],
 
     targets: [
@@ -30,3 +30,4 @@ let package = Package(
 
     ]
 )
+
