@@ -8,30 +8,22 @@ let package = Package(
     platforms: [
         .iOS(.v12)
     ],
-
-    dependencies: [
-        // Here we define our package's external dependencies
-        // and from where they can be fetched:
-        .package(
-            name: "SJ",
-            url: "https://github.com/SwiftyJSON/SwiftyJSON.git",
-            fromt("5.0.1")
-        )
-    ],
-
     products: [
         .library(name: "medallia-sense360-ios-sdk", targets: ["SenseQuinoaLib"])
     ],
 
-
-
+    dependencies: [
+        // Here we define our package's external dependencies
+        // and from where they can be fetched:
+        .package(name: "SJ", url: "https://github.com/SwiftyJSON/SwiftyJSON.git", from("5.0.1"))
+    ],
 
     targets: [
         .target(
-            name: "Source",
+            name: "Dummy",
             dependencies: [
-                "SJ",
-            ], path: "Sources")),
+                "SJ"
+            ], path: "Source"),
         .binaryTarget(
             name: "SenseQuinoaLib",
             path: "SenseQuinoaLib.xcframework")
