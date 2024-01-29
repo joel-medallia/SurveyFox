@@ -1,4 +1,0 @@
-framework module SenseQuinoaLib {
-  header " SenseQuinoaLib-Swift.h"
-  requires objc
-}
