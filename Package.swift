@@ -9,7 +9,7 @@ let package = Package(
         .iOS(.v12)
     ],
     products: [
-        .library(name: "medallia-sense360-ios-sdk", targets: ["SenseQuinoaLib"])
+        .library(name: "medallia-sense360-ios-sdk", targets: ["SenseQuinoaLib", "SwiftyJSON"])
     ],
 
     dependencies: [
