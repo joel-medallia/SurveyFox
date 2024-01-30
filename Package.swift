@@ -23,8 +23,8 @@ let package = Package(
             name: "SenseQuinoaLib",
             path: "SenseQuinoaLib.xcframework"),
         .binaryTarget(
-            name: "Reachability",
-            path: "Reachability.xcframework")
+            name: "SwiftyJSON",
+            path: "SwiftyJSON.xcframework")
     ]
 )
 
