@@ -14,8 +14,10 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(name: "SwiftyJSON", url: "https://github.com/SwiftyJSON/SwiftyJSON.git", from: "5.0.0"),
-        .package(name: "SwiftJWT", url: "https://github.com/Kitura/Swift-JWT.git", from: "4.0.0"),
+        .package(name: "SwiftyJSON", url: "https://github.com/SwiftyJSON/SwiftyJSON.git", from: "5.0.1"),
+        .package(name: "SwiftJWT", url: "https://github.com/Kitura/Swift-JWT.git", from: "4.0.1"),
+        .package(name: "Reachability", url: "https://github.com/ashleymills/Reachability.swift.git", from: "5.0.0"),
+        .package(name: "DataCompression", url: "https://github.com/mw99/DataCompression.git", from: "3.8.0")
     ],
     targets: [
         .binaryTarget(
