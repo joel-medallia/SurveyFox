@@ -29,7 +29,7 @@ let package = Package(
                     .target(name: "SenseQuinoaLib", condition: .when(platforms: .some([.iOS]))),
                     "SwiftyJSON",
                     "SwiftJWT",
-                    "Rachability",
+                    "Reachability",
                     "DataCompression"
                 ],
                 path: "SenseQuinoaLibWrapper"
