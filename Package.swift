@@ -28,7 +28,9 @@ let package = Package(
                 dependencies: [
                     .target(name: "SenseQuinoaLib", condition: .when(platforms: .some([.iOS]))),
                     "SwiftyJSON",
-                    "SwiftJWT"
+                    "SwiftJWT",
+                    "Rachability",
+                    "DataCompression"
                 ],
                 path: "SenseQuinoaLibWrapper"
         )
