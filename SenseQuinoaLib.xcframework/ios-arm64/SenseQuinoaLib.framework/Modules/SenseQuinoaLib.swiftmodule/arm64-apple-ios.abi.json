@@ -101282,6 +101282,13 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1887,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/DirectoryLogZipper.swift",
       "kind": "StringLiteral",
       "offset": 347,
