@@ -18,23 +18,23 @@
 		</data>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		W1auFAW7Vu9cD30gCm/n3OHKcs8=
+		slgFmTs0vxDG6D9uCnEW67eFHR8=
 		</data>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		jKUp5Xzzbt9NW3xpUsu7ig1VgO4=
+		006qUBjVtZ5kI/cdEwuOSH4+2I4=
 		</data>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		WPiP2yT017GgyiWZCrbVdgAwVCI=
+		7fRJCvsI2xPnWd8KWrhzP8CK/TA=
 		</data>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		jKUp5Xzzbt9NW3xpUsu7ig1VgO4=
+		006qUBjVtZ5kI/cdEwuOSH4+2I4=
 		</data>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		efAG0eh3lJzw9XMo2l0ohqQ+Qn4=
+		1ccEXB+k9lRagg/QrOU20r9Nkb4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -89,35 +89,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+m0T1phT6g9edAGslZnAgbT51SYX0m5Wr5d1oQpKpBE=
+			mBalND3+avxkMd3lWWYRKqcNlRrgAPsBrYGIVCI3hSM=
 			</data>
 		</dict>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Pd48QDCuIE4IUFjSTNA8jt5wLdksCw2+SgvVVgOWXLw=
+			BniXSWb9XoUDoYI2PGDYBgw/JesWfNLfKIHBi5+zc18=
 			</data>
 		</dict>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NAJqNJpYxpT23l/86VS3xZggLNQ0eaeaKoMCTBXG7rM=
+			SMjMWUcFbROuL8LwO1yuX/7ylObjjGyJzwc6byMwfg0=
 			</data>
 		</dict>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Pd48QDCuIE4IUFjSTNA8jt5wLdksCw2+SgvVVgOWXLw=
+			BniXSWb9XoUDoYI2PGDYBgw/JesWfNLfKIHBi5+zc18=
 			</data>
 		</dict>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KIb7j1Dyfkr6zHWmZMy2n+jpnOoUpkh92IYIIB2IQiU=
+			KTzeSWopmvQ1A5RI/CikxqcZoDovOBGZzHCfvixS7dY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
