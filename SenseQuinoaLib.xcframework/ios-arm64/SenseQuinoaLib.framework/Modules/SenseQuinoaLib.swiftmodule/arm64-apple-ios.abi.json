@@ -14415,6 +14415,31 @@
             "hasStorage": true
           },
           {
+            "kind": "Var",
+            "name": "isLocationServicesEnabled",
+            "printedName": "isLocationServicesEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SenseQuinoaLib23ConfigurationDownloaderC25isLocationServicesEnabled33_5005700EEB4847A2E729A411AF55AE90LLSbvp",
+            "mangledName": "$s14SenseQuinoaLib23ConfigurationDownloaderC25isLocationServicesEnabled33_5005700EEB4847A2E729A411AF55AE90LLSbvp",
+            "moduleName": "SenseQuinoaLib",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 6,
+            "hasStorage": true
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(httpRequestHelper:)",
@@ -100769,6 +100794,13 @@
       "offset": 924,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Configuration\/ConfigurationDownloader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 974,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/CDEntity.swift",
