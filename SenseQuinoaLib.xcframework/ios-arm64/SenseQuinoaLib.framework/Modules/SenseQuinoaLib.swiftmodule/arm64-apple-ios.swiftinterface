@@ -1,18 +1,14 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name SenseQuinoaLib
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SenseQuinoaLib
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import SystemConfiguration.CaptiveNetwork
 import CommonCrypto
 import CoreData
 import CoreLocation
 import CoreMotion
-import DataCompression
 import Foundation
-import Reachability
 import Swift
-import SwiftJWT
-import SwiftyJSON
 import SystemConfiguration
 import UIKit
 import UserNotifications
@@ -23,14 +19,6 @@ import os.log
 import os
 public protocol Sense360SurveyDownloadDelegate {
   func handleNewSurvey(newSurvey: Swift.Array<SenseQuinoaLib.Sense360Survey>)
-}
-public enum FakePersonalizedPlaceType {
-  case Home, Both, None
-  public static func == (a: SenseQuinoaLib.FakePersonalizedPlaceType, b: SenseQuinoaLib.FakePersonalizedPlaceType) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
 }
 public struct Sense360Survey : Swift.Codable {
   public var surveyId: Swift.String
@@ -63,17 +51,6 @@ public struct Sense360Survey : Swift.Codable {
   public static func forceErrorUpload()
   public static func forceUpload(_ lowFreqUploadDelegate: @escaping SenseQuinoaLib.UploadDelegate, personalizedUploadDelegate: @escaping SenseQuinoaLib.UploadDelegate, checkWifi: Swift.Bool)
   public static func forceAnnotation()
-  public static func testHoneyBadgerViaAPI(testString: Swift.String)
-  public static func setTestingFakeVisitAllowed(to value: Swift.Bool)
-  public static func setTestingFakeVisitType(to value: SenseQuinoaLib.FakeVisitType)
-  public static func setTestingFakeVisitAccuracy(to value: SenseQuinoaLib.FakeVisitAccuracyType)
-  public static func setTestingFakeVisitDuration(to value: Swift.Double)
-  public static func isTestingFakeVisitAllowed() -> Swift.Bool
-  public static func getTestingFakeVisitType() -> SenseQuinoaLib.FakeVisitType
-  public static func getTestingFakeVisitAccuracy() -> SenseQuinoaLib.FakeVisitAccuracyType
-  public static func getTestingFakeVisitDuration() -> Swift.Double
-  public static func verifyPersonalizedPlacesIdentification(type: SenseQuinoaLib.FakePersonalizedPlaceType, delegate: @escaping SenseQuinoaLib.UploadDelegate)
-  public static func userId() -> Swift.String
   @objc override dynamic public init()
   @objc deinit
 }
@@ -130,25 +107,6 @@ public enum Sense360StartReturnCode : Swift.Int {
   @objc override dynamic public init()
   @objc deinit
 }
-public enum FakeVisitType : Swift.String {
-  case arrival
-  case departure
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public enum FakeVisitAccuracyType : Swift.Double {
-  case high
-  case medium
-  case low
-  public init?(rawValue: Swift.Double)
-  public typealias RawValue = Swift.Double
-  public var rawValue: Swift.Double {
-    get
-  }
-}
 public typealias UploadDelegate = (SenseQuinoaLib.UploadEventArgs) -> ()
 @_hasMissingDesignatedInitializers open class UploadEventArgs {
   final public let filesUploaded: [Swift.String]
@@ -193,16 +151,8 @@ extension SenseQuinoaLib.Sense360SurveyError : Foundation.LocalizedError {
   public func markAllSurveysAsOld()
   @objc deinit
 }
-extension SenseQuinoaLib.FakePersonalizedPlaceType : Swift.Equatable {}
-extension SenseQuinoaLib.FakePersonalizedPlaceType : Swift.Hashable {}
 extension SenseQuinoaLib.Sense360StartReturnCode : Swift.Equatable {}
 extension SenseQuinoaLib.Sense360StartReturnCode : Swift.Hashable {}
 extension SenseQuinoaLib.Sense360StartReturnCode : Swift.RawRepresentable {}
-extension SenseQuinoaLib.FakeVisitType : Swift.Equatable {}
-extension SenseQuinoaLib.FakeVisitType : Swift.Hashable {}
-extension SenseQuinoaLib.FakeVisitType : Swift.RawRepresentable {}
-extension SenseQuinoaLib.FakeVisitAccuracyType : Swift.Equatable {}
-extension SenseQuinoaLib.FakeVisitAccuracyType : Swift.Hashable {}
-extension SenseQuinoaLib.FakeVisitAccuracyType : Swift.RawRepresentable {}
 extension SenseQuinoaLib.Sense360SurveyError : Swift.Equatable {}
 extension SenseQuinoaLib.Sense360SurveyError : Swift.Hashable {}

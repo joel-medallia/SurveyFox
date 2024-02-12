@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		KIZCVneTSFuG6Ydn7Ci+gqTUaP4=
+		211DE4munRP+J698VWUGNrdrZRk=
 		</data>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Fa+QHOFozGAXr26PEm0PNaxIsGk=
+		e1s57W7HMC/KLpfVq6NhMebpnUA=
 		</data>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		006qUBjVtZ5kI/cdEwuOSH4+2I4=
+		22iGni4wI1rvpmENTZp4+Yi6+Sg=
 		</data>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		7fRJCvsI2xPnWd8KWrhzP8CK/TA=
+		WPiP2yT017GgyiWZCrbVdgAwVCI=
 		</data>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		006qUBjVtZ5kI/cdEwuOSH4+2I4=
+		22iGni4wI1rvpmENTZp4+Yi6+Sg=
 		</data>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		HwQxLvDl7mBTp9ieFO0CiCkGNtg=
+		4F0C2kyyZuLOz9g9Guou79p7RQY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,15 +50,15 @@
 		</data>
 		<key>VisitModel.momd/VisitModel v2.mom</key>
 		<data>
-		W5V1uQ5TsaUWLOOcLvd3z0M8QfA=
+		0FWYTWeN862Eb2ISeVcGs2R4ync=
 		</data>
 		<key>VisitModel.momd/VisitModel v3.mom</key>
 		<data>
-		hNNDqSIvWMhm+N6/+PU0xfKkqvw=
+		wXtfeTATduBjtgf+s79z/fpcGdo=
 		</data>
 		<key>VisitModel.momd/VisitModel v4.mom</key>
 		<data>
-		Idt/I13gc+G3kElGogiFpTIFkOo=
+		7aWJgKzBm0pkL5+btnagCY13iLc=
 		</data>
 		<key>VisitModel.momd/VisitModel v4.omo</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>VisitModel.momd/VisitModel.mom</key>
 		<data>
-		HdMGeXMkFlJBHDekVdjVpoNCsNI=
+		UjDb/hchAZe+HI2ZBYYhTyVD810=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -89,35 +89,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8MbHMFPaD5+xuBNIU/cDjzkv2tvUyS58t81OwUsplwY=
+			3Ou9jFb2m3UaSrJyEn2bxXYjtK6Vv03qcDJyrOQXCiE=
 			</data>
 		</dict>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BniXSWb9XoUDoYI2PGDYBgw/JesWfNLfKIHBi5+zc18=
+			Io4n6uDLHuEVBbOVHd2QkF4Z9aaPUnplJ/kyNNdknpg=
 			</data>
 		</dict>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SMjMWUcFbROuL8LwO1yuX/7ylObjjGyJzwc6byMwfg0=
+			NAJqNJpYxpT23l/86VS3xZggLNQ0eaeaKoMCTBXG7rM=
 			</data>
 		</dict>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BniXSWb9XoUDoYI2PGDYBgw/JesWfNLfKIHBi5+zc18=
+			Io4n6uDLHuEVBbOVHd2QkF4Z9aaPUnplJ/kyNNdknpg=
 			</data>
 		</dict>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h14wLnwk6T4d/0Kw7PKsv8VBiNG0Gpktc2S6cX+V4wo=
+			PV6oJZ+Uwcy/ax5ohot9TqBJG8ehENf4Uz1t6+b7nZ0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -145,21 +145,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pODjxsW8+osSHRPk2/lVclYHPmp3CCxsRxx9BAlNyWA=
+			5TrW2KGCcxO4WZMFBhh8eewNx44XK484eytGFHW7JVM=
 			</data>
 		</dict>
 		<key>VisitModel.momd/VisitModel v3.mom</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cXmpI40L/RsIUC8LEIhb05GCRWy1b9yFOZhygec9HlQ=
+			ni+6Shcu/npB3BPh5rwaDVVHdBJg/rPvZTu8fs6onhA=
 			</data>
 		</dict>
 		<key>VisitModel.momd/VisitModel v4.mom</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UPamW/NlQwNzgtKHg367+h3ITH1wFoTvoFe3EFC11eo=
+			ZQvx9Tf1ZVcz5bL6ZGJCnM0qpGAm2CWeFwixgdOfh5o=
 			</data>
 		</dict>
 		<key>VisitModel.momd/VisitModel v4.omo</key>
@@ -173,7 +173,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HI986NOsoZhqJb6LdOKgwmQoYGAGql9B5MMKYsWzIOM=
+			YT/oDo19O+clo5MY54JzfDhLAFF8VNKxOz9sGJ19Ycs=
 			</data>
 		</dict>
 	</dict>
