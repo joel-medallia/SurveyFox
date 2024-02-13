@@ -11169,119 +11169,133 @@
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 3174,
+      "offset": 3190,
       "length": 64,
       "value": "\"Attempting to decode data based on multiple survey json format\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 3415,
+      "offset": 3431,
       "length": 62,
       "value": "\"Attempting to decode data based on single survey json format\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 3659,
+      "offset": 3675,
       "length": 29,
       "value": "\"Unexpected error: \""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 3686,
+      "offset": 3702,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 4240,
+      "offset": 4256,
       "length": 45,
       "value": "\"The survey size is \""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 4284,
+      "offset": 4300,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "IntegerLiteral",
-      "offset": 4655,
+      "offset": 4671,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 5864,
+      "offset": 5880,
       "length": 42,
       "value": "\"JSON data to Survey conversion succeeds!\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 6985,
+      "offset": 6650,
+      "length": 77,
+      "value": "\"Full Request String on Survey Download - \""
+    },
+    {
+      "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
+      "kind": "StringLiteral",
+      "offset": 6726,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
+      "kind": "StringLiteral",
+      "offset": 7099,
       "length": 29,
       "value": "\"Received non-HTTP response.\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "Array",
-      "offset": 7158,
+      "offset": 7272,
       "length": 5,
       "value": "[200]"
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "BooleanLiteral",
-      "offset": 7589,
+      "offset": 7703,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 7719,
+      "offset": 7833,
       "length": 55,
       "value": "\"Received HTTP \""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 7772,
+      "offset": 7886,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 7872,
+      "offset": 7986,
       "length": 165,
       "value": "\"Error. Received \""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 7927,
+      "offset": 8041,
       "length": 1,
       "value": "\" (\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 7979,
+      "offset": 8093,
       "length": 1,
       "value": "\") for url \""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 8036,
+      "offset": 8150,
       "length": 2,
       "value": "\"\""
     },
@@ -15019,98 +15033,98 @@
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/QuinoaSdk.swift",
       "kind": "StringLiteral",
-      "offset": 18933,
+      "offset": 18949,
       "length": 23,
       "value": "\"SurveyAvailabilityAPI\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/QuinoaSdk.swift",
       "kind": "BooleanLiteral",
-      "offset": 19309,
+      "offset": 19325,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/QuinoaSdk.swift",
       "kind": "IntegerLiteral",
-      "offset": 20388,
+      "offset": 20404,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/QuinoaSdk.swift",
       "kind": "StringLiteral",
-      "offset": 20672,
+      "offset": 20688,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/QuinoaSdk.swift",
       "kind": "BooleanLiteral",
-      "offset": 20936,
+      "offset": 20952,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/QuinoaSdk.swift",
       "kind": "BooleanLiteral",
-      "offset": 21177,
+      "offset": 21193,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/QuinoaSdk.swift",
       "kind": "BooleanLiteral",
-      "offset": 21305,
+      "offset": 21321,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/QuinoaSdk.swift",
       "kind": "IntegerLiteral",
-      "offset": 21677,
+      "offset": 21693,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/QuinoaSdk.swift",
       "kind": "StringLiteral",
-      "offset": 21777,
+      "offset": 21793,
       "length": 13,
       "value": "\"personalLat\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/QuinoaSdk.swift",
       "kind": "StringLiteral",
-      "offset": 21837,
+      "offset": 21853,
       "length": 13,
       "value": "\"personalLat\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/QuinoaSdk.swift",
       "kind": "IntegerLiteral",
-      "offset": 21972,
+      "offset": 21988,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/QuinoaSdk.swift",
       "kind": "StringLiteral",
-      "offset": 22072,
+      "offset": 22088,
       "length": 13,
       "value": "\"personalLat\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/QuinoaSdk.swift",
       "kind": "StringLiteral",
-      "offset": 22132,
+      "offset": 22148,
       "length": 13,
       "value": "\"personalLat\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/QuinoaSdk.swift",
       "kind": "StringLiteral",
-      "offset": 23307,
+      "offset": 23323,
       "length": 16,
       "value": "\"config changed\""
     },
