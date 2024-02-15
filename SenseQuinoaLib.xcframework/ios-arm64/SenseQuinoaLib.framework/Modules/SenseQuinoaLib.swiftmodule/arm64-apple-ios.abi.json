@@ -7893,70 +7893,70 @@
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/QuinoaSettings.swift",
       "kind": "StringLiteral",
-      "offset": 1551,
+      "offset": 250,
       "length": 58,
       "value": "\"https:\/\/ios-quinoa-events-prod.sense360eng.com\/ios_event\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/QuinoaSettings.swift",
       "kind": "StringLiteral",
-      "offset": 1690,
+      "offset": 389,
       "length": 66,
       "value": "\"https:\/\/ios-quinoa-config-prod.sense360eng.com\/ios_configuration\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/QuinoaSettings.swift",
       "kind": "StringLiteral",
-      "offset": 1848,
+      "offset": 547,
       "length": 88,
       "value": "\"https:\/\/ios-quinoa-personal-identify-prod.sense360eng.com\/personalized_places\/identify\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/QuinoaSettings.swift",
       "kind": "StringLiteral",
-      "offset": 2021,
+      "offset": 720,
       "length": 39,
       "value": "\"http:\/\/survey.give-feedback.co\/verify\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/QuinoaSettings.swift",
       "kind": "StringLiteral",
-      "offset": 2152,
+      "offset": 851,
       "length": 57,
       "value": "\"https:\/\/metrics.surveys.give-feedback.co\/survey\/metrics\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/QuinoaSettings.swift",
       "kind": "StringLiteral",
-      "offset": 2305,
+      "offset": 1004,
       "length": 61,
       "value": "\"https:\/\/surveys.api.give-feedback.co\/v1\/survey_availability\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/QuinoaSettings.swift",
       "kind": "StringLiteral",
-      "offset": 2451,
+      "offset": 1150,
       "length": 61,
       "value": "\"https:\/\/surveys.api.give-feedback.co\/api\/v1\/triggers\/active\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/QuinoaSettings.swift",
       "kind": "StringLiteral",
-      "offset": 2601,
+      "offset": 1300,
       "length": 61,
       "value": "\"https:\/\/surveys.api.give-feedback.co\/api\/v1\/triggers\/notify\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/QuinoaSettings.swift",
       "kind": "StringLiteral",
-      "offset": 2747,
+      "offset": 1446,
       "length": 57,
       "value": "\"https:\/\/surveys.api.give-feedback.co\/api\/v1\/test_survey\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/QuinoaSettings.swift",
       "kind": "StringLiteral",
-      "offset": 2887,
+      "offset": 1579,
       "length": 14,
       "value": "\"sense360.com\""
     },
@@ -11162,140 +11162,147 @@
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 2557,
+      "offset": 2697,
+      "length": 38,
+      "value": "\"27862a1a-d420-4468-9c7b-41e2c1fcc629\""
+    },
+    {
+      "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
+      "kind": "StringLiteral",
+      "offset": 2905,
       "length": 7,
       "value": "\"multi\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 3190,
+      "offset": 3547,
       "length": 64,
       "value": "\"Attempting to decode data based on multiple survey json format\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 3431,
+      "offset": 3788,
       "length": 62,
       "value": "\"Attempting to decode data based on single survey json format\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 3675,
+      "offset": 4032,
       "length": 29,
       "value": "\"Unexpected error: \""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 3702,
+      "offset": 4059,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 4256,
+      "offset": 4613,
       "length": 45,
       "value": "\"The survey size is \""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 4300,
+      "offset": 4657,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "IntegerLiteral",
-      "offset": 4671,
+      "offset": 5028,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 5880,
+      "offset": 6237,
       "length": 42,
       "value": "\"JSON data to Survey conversion succeeds!\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 6650,
+      "offset": 7007,
       "length": 77,
       "value": "\"Full Request String on Survey Download - \""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 6726,
+      "offset": 7083,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 7099,
+      "offset": 7456,
       "length": 29,
       "value": "\"Received non-HTTP response.\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "Array",
-      "offset": 7272,
+      "offset": 7629,
       "length": 5,
       "value": "[200]"
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "BooleanLiteral",
-      "offset": 7703,
+      "offset": 8060,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 7833,
+      "offset": 8190,
       "length": 55,
       "value": "\"Received HTTP \""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 7886,
+      "offset": 8243,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 7986,
+      "offset": 8343,
       "length": 165,
       "value": "\"Error. Received \""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 8041,
+      "offset": 8398,
       "length": 1,
       "value": "\" (\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 8093,
+      "offset": 8450,
       "length": 1,
       "value": "\") for url \""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/SurveyDownloading\/SurveyAvailabilityDownloader.swift",
       "kind": "StringLiteral",
-      "offset": 8150,
+      "offset": 8507,
       "length": 2,
       "value": "\"\""
     },
@@ -19021,6 +19028,55 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/JWTClaims.swift",
+      "kind": "StringLiteral",
+      "offset": 1047,
+      "length": 14,
+      "value": "\"iPhone12mini\""
+    },
+    {
+      "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/JWTClaims.swift",
+      "kind": "StringLiteral",
+      "offset": 1107,
+      "length": 37,
+      "value": "\"com.medallia.sense360.ios.surveyfox\""
+    },
+    {
+      "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/JWTClaims.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1192,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/JWTClaims.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1244,
+      "length": 3,
+      "value": "463"
+    },
+    {
+      "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/JWTClaims.swift",
+      "kind": "StringLiteral",
+      "offset": 1298,
+      "length": 7,
+      "value": "\"0.0.1\""
+    },
+    {
+      "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/JWTClaims.swift",
+      "kind": "StringLiteral",
+      "offset": 1361,
+      "length": 8,
+      "value": "\"16.6.1\""
+    },
+    {
+      "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/JWTClaims.swift",
+      "kind": "StringLiteral",
+      "offset": 1416,
+      "length": 38,
+      "value": "\"FD677C92-6964-4E0E-ABE6-A2DAFF7FE7C1\""
+    },
+    {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/Surveys\/Sense360SurveyError.swift",
       "kind": "StringLiteral",
       "offset": 619,
@@ -20983,35 +21039,35 @@
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/JWTHelper.swift",
       "kind": "StringLiteral",
-      "offset": 1057,
+      "offset": 1065,
       "length": 38,
       "value": "\"27862a1a-d420-4468-9c7b-41e2c1fcc629\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/JWTHelper.swift",
       "kind": "StringLiteral",
-      "offset": 1519,
+      "offset": 1551,
       "length": 29,
       "value": "\"Error signing JWT: \""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/JWTHelper.swift",
       "kind": "StringLiteral",
-      "offset": 1547,
+      "offset": 1579,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/JWTHelper.swift",
       "kind": "IntegerLiteral",
-      "offset": 1759,
+      "offset": 1791,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/joel\/workspace2\/QuinoaIOS\/QuinoaIOS\/QuinoaIOS\/JWTHelper.swift",
       "kind": "StringLiteral",
-      "offset": 1940,
+      "offset": 1972,
       "length": 2,
       "value": "\"\""
     },

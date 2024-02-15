@@ -1,0 +1,158 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SenseQuinoaLib
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import SystemConfiguration.CaptiveNetwork
+import CommonCrypto
+import CoreData
+import CoreLocation
+import CoreMotion
+import Foundation
+import Swift
+import SystemConfiguration
+import UIKit
+import UserNotifications
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os.log
+import os
+public protocol Sense360SurveyDownloadDelegate {
+  func handleNewSurvey(newSurvey: Swift.Array<SenseQuinoaLib.Sense360Survey>)
+}
+public struct Sense360Survey : Swift.Codable {
+  public var surveyId: Swift.String
+  public var surveyAvailable: Swift.Bool?
+  public var surveyDescription: Swift.String
+  public var surveyUrl: Swift.String
+  public var surveyTitle: Swift.String
+  public var projectId: Swift.String
+  public var lengthOfInterview: Swift.Int
+  public var thirdPartyUserId: Swift.String
+  public var inviteExpirationUtcMs: Swift.Int64?
+  public var priority: Swift.Int?
+  public var expirationDateUtcMs: Swift.Int64?
+  public var viewedTimestampUtc: Swift.String?
+  public init(surveyId: Swift.String, surveyAvailable: Swift.Bool?, surveyDescription: Swift.String, surveyUrl: Swift.String, surveyTitle: Swift.String, projectId: Swift.String, lengthOfInterview: Swift.Int, thirdPartyUserId: Swift.String, inviteExpirationUtcMs: Swift.Int64?, priority: Swift.Int?, expirationDateUtcMs: Swift.Int64?, viewedTimestampUtc: Swift.String?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@objc @_inheritsConvenienceInitializers open class Sense360Testing : ObjectiveC.NSObject {
+  @objc public static func verifyDataCollection()
+  public static func triggerSurveyNotification() throws
+  public static func triggerLocalNotifcation(with survey: SenseQuinoaLib.Sense360Survey)
+  @objc public static func autoSetThirdPartyUserId()
+  public static func insertTestSurvey(completionHandler: @escaping (Swift.Result<Swift.Bool, SenseQuinoaLib.Sense360SurveyError>) -> Swift.Void)
+  public static func triggerSurveyDownload(completionHandler: @escaping (Swift.Result<Swift.Bool, SenseQuinoaLib.Sense360SurveyError>) -> Swift.Void)
+  public static func triggerSurveyGeofencesDownload(location: CoreLocation.CLLocation, onCompletion handler: @escaping ((Swift.Bool) -> Swift.Void))
+  public static func getHomeWorkLocation() -> (Swift.Array<CoreLocation.CLLocation>, Swift.Array<CoreLocation.CLLocation>)
+  public static func forcePullConfiguration()
+  public static func triggerVisit(coordinate: CoreLocation.CLLocationCoordinate2D, horizontalAccuracy: CoreLocation.CLLocationAccuracy, arrivalDate: Foundation.Date, departureDate: Foundation.Date)
+  public static func forceErrorUpload()
+  public static func forceUpload(_ lowFreqUploadDelegate: @escaping SenseQuinoaLib.UploadDelegate, personalizedUploadDelegate: @escaping SenseQuinoaLib.UploadDelegate, checkWifi: Swift.Bool)
+  public static func forceAnnotation()
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc final public class DemographicData : ObjectiveC.NSObject {
+  @objc public init(gender: Swift.String, age: Swift.Int, maritalStatus: Swift.String, income: Swift.Int, ethnicity: Swift.String, birthYear: Swift.Int)
+  @objc deinit
+}
+public enum Sense360StartReturnCode : Swift.Int {
+  case startedSuccessfully
+  case exceptionOccurred
+  case configurationNotDownloaded
+  case sdkPermanentlyStopped
+  case sdkDeactivatedContactSense360
+  case locationPermissionNotPrecise
+  case outsideUS
+  case unknown
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers open class Sense360 : ObjectiveC.NSObject {
+  @objc public static var sdkVersion: Swift.String {
+    @objc get
+  }
+  @objc public static var userId: Swift.String {
+    @objc get
+  }
+  @objc public static var thirdPartyId: Swift.String {
+    @objc get
+  }
+  @objc public static var sdkStarted: Swift.Bool {
+    @objc get
+  }
+  @objc public static var permanentlyStopped: Swift.Bool {
+    @objc get
+  }
+  @objc(startWithNotificationDelegate:sendNotifications:) public static func start(_ notificationDelegate: (any SenseQuinoaLib.SenseNotificationDelegate)? = SenseNotificationDelegate?.none, sendNotifications: Swift.Bool) -> Swift.Int
+  @objc(restoreWithNotificationDelegate:sendNotifications:) public static func restore(_ notificationDelegate: (any SenseQuinoaLib.SenseNotificationDelegate)? = SenseNotificationDelegate?.none, sendNotifications: Swift.Bool) -> Swift.Int
+  @objc public static func disableSurveyNotifications()
+  @objc public static func enableSurveyNotifications()
+  @objc public static func areSurveyNotificationsEnabled() -> Swift.Bool
+  @objc public static func stop()
+  @objc public static func userNotificationCenterDidReceive(center: UserNotifications.UNUserNotificationCenter, didReceive: UserNotifications.UNNotificationResponse, withCompletionHandler: () -> Swift.Void) -> Swift.Bool
+  @objc public static func userNotificationCenterWillPresent(center: UserNotifications.UNUserNotificationCenter, willPresent: UserNotifications.UNNotification, withCompletionHandler: (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void) -> Swift.Bool
+  @objc public static func passDemographicData(_ data: SenseQuinoaLib.DemographicData)
+  @objc public static func passThirdPartyUserId(_ thirdPartyUseId: Swift.String) throws
+  @objc(userOptInWithNotificationDelegate:sendNotifications:) public static func userOptIn(_ notificationDelegate: (any SenseQuinoaLib.SenseNotificationDelegate)? = SenseNotificationDelegate?.none, sendNotifications: Swift.Bool)
+  @objc public static func userOptOut()
+  @objc public static func isUserOptedOut() -> Swift.Bool
+  public static func addNewSurveyListener(_ listener: any SenseQuinoaLib.Sense360SurveyDownloadDelegate)
+  public static func getPreviouslyDownloadedSurveys() -> [SenseQuinoaLib.Sense360Survey]
+  @objc override dynamic public init()
+  @objc deinit
+}
+public typealias UploadDelegate = (SenseQuinoaLib.UploadEventArgs) -> ()
+@_hasMissingDesignatedInitializers open class UploadEventArgs {
+  final public let filesUploaded: [Swift.String]
+  final public let totalFileSize: Swift.Double
+  final public let success: Swift.Bool
+  @objc deinit
+}
+@objc public protocol SenseNotificationDelegate {
+  @objc func notificationClicked(clickData: SenseQuinoaLib.NotificationClickData)
+  @objc func notificationSent()
+  @objc func notificationsWillBeRemoved()
+}
+public enum Sense360SurveyError : Swift.Error {
+  case featureDisabled
+  case hasExceededDailyLimit
+  case brokenWebToken
+  case serverConnectivityIssue
+  case noSurveyAvailable
+  public static func == (a: SenseQuinoaLib.Sense360SurveyError, b: SenseQuinoaLib.Sense360SurveyError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension SenseQuinoaLib.Sense360SurveyError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+@objc public class NotificationClickData : ObjectiveC.NSObject {
+  @objc final public let url: Foundation.URL
+  @objc final public let surveyId: Swift.String
+  @objc public init(url: Foundation.URL, surveyId: Swift.String)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers open class SurveyRecorder {
+  public static let instance: SenseQuinoaLib.SurveyRecorder
+  public func getSurveys(withPredicate predicate: Foundation.NSPredicate? = nil) -> [SenseQuinoaLib.Sense360Survey]
+  public func deleteSurveys(_ surveys: Swift.Array<SenseQuinoaLib.Sense360Survey>)
+  public func deleteAllSurveys()
+  public func markSurveyAsOld(surveyId: Swift.String)
+  public func markAllSurveysAsOld()
+  @objc deinit
+}
+extension SenseQuinoaLib.Sense360StartReturnCode : Swift.Equatable {}
+extension SenseQuinoaLib.Sense360StartReturnCode : Swift.Hashable {}
+extension SenseQuinoaLib.Sense360StartReturnCode : Swift.RawRepresentable {}
+extension SenseQuinoaLib.Sense360SurveyError : Swift.Equatable {}
+extension SenseQuinoaLib.Sense360SurveyError : Swift.Hashable {}
