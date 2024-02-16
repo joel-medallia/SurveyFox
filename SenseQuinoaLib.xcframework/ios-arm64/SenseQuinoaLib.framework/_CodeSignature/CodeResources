@@ -8,9 +8,13 @@
 		<data>
 		Rk8DgC0Dzkc0xiGGA8hCvmMaXIQ=
 		</data>
+		<key>Headers/NSExceptionCatcher.h</key>
+		<data>
+		wuF2czFtob82mvlPBajMK6W/QCY=
+		</data>
 		<key>Headers/QuinoaIOS.h</key>
 		<data>
-		sOMw0qxPO0ut1z2XF/fn6TDHeMw=
+		QOhyJR3M4BcuWiu+bUPZyXXmBcA=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -18,11 +22,11 @@
 		</data>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		1u629I3Zn3LO9JmlWp5ClU1Bqyw=
+		K7hF9XHGR2fJMTdlF/gHcDW4P1U=
 		</data>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		22iGni4wI1rvpmENTZp4+Yi6+Sg=
+		wcRcs3v2m78UOUbOTsmcE0CR4fE=
 		</data>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,15 +34,15 @@
 		</data>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		22iGni4wI1rvpmENTZp4+Yi6+Sg=
+		wcRcs3v2m78UOUbOTsmcE0CR4fE=
 		</data>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		4F0C2kyyZuLOz9g9Guou79p7RQY=
+		4GKxXTVM4OPmhh9UsQNEJb4O+ts=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		u7r9EPnUwzH9Okerxar4CfXpV54=
+		6nlnp4l2NHu8WPV7I4p/4xeQJ1Q=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -78,25 +82,32 @@
 			cBh8v6fT8GJZlY/hQZ8MQ3rm8PzyLjwychmn+dyOHU4=
 			</data>
 		</dict>
+		<key>Headers/NSExceptionCatcher.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ek9MC/MRn5Xz1QY+5XkRnx2kbTJ2QBaMQ2JFdJY2PFE=
+			</data>
+		</dict>
 		<key>Headers/QuinoaIOS.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h1rvJZ2wMgAdNNSF1kch4sAKjPqj+0G2+ChG3NlQqhk=
+			QXAF2DwHt6g4NRh9jYMyHkpCmvdYmeVAocf4cO9W2xw=
 			</data>
 		</dict>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gPh5ySlXFlAM662B2lgOZAPwbsVhPgkusejQP58jQK4=
+			zDL+LwmiXMwTtwDF8c4UJSwjaZ60WQLm1KIORIDNlsA=
 			</data>
 		</dict>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Io4n6uDLHuEVBbOVHd2QkF4Z9aaPUnplJ/kyNNdknpg=
+			pGzdI7rJcmrB3x1Mz12U5CmU6ys/j9u9UGBVlmqBTxM=
 			</data>
 		</dict>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -110,21 +121,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Io4n6uDLHuEVBbOVHd2QkF4Z9aaPUnplJ/kyNNdknpg=
+			pGzdI7rJcmrB3x1Mz12U5CmU6ys/j9u9UGBVlmqBTxM=
 			</data>
 		</dict>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PV6oJZ+Uwcy/ax5ohot9TqBJG8ehENf4Uz1t6+b7nZ0=
+			NXIWQJrWMv7e6FvW2nQbupJeRFA8A46nxhcaE2qNNTI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bOANXihZfKwQ8/t7GO/x0tQCEJ7aUl4/lLcWMoc/Ih8=
+			Xx09zB25EDwhgDbQ/sKe5T4m9AxT0Ovtd48r2Hacqj8=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>

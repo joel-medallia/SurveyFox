@@ -1,0 +1,19 @@
+//
+//  module.map.modulemap
+//  QuinoaIOS
+//
+//  Created by Joe Leung on 2/15/24.
+//  Copyright © 2024 sense360. All rights reserved.
+//
+
+framework module SenseQuinoaLib {
+    umbrella header "QuinoaIOS.h"
+    
+    export *
+    module * { export * }
+}
+
+module SenseQuinoaLib.Swift {
+  header " SenseQuinoaLib-Swift.h"
+  requires objc
+}

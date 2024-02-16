@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char QuinoaIOSVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <QuinoaIOS/PublicHeader.h>
 
-
+#import <SenseQuinoaLib/NSExceptionCatcher.h>
