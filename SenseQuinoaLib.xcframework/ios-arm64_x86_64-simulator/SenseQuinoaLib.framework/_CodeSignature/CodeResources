@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		y87Etau456H+dKMoojRexUFX7SM=
+		7iorH7f7hMxljyZu9bmIYyf9VNc=
 		</data>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/SenseQuinoaLib.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		y87Etau456H+dKMoojRexUFX7SM=
+		7iorH7f7hMxljyZu9bmIYyf9VNc=
 		</data>
 		<key>Modules/SenseQuinoaLib.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -117,7 +117,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bjOjQuxRXoNgRg3sQ4iG2zFaNLK7yrzIBBBm7pXvaTs=
+			bRaNbTZM6+m/SOdnOnaPJDccztE03J+OTLCeaM7Z02U=
 			</data>
 		</dict>
 		<key>Modules/SenseQuinoaLib.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -152,7 +152,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bjOjQuxRXoNgRg3sQ4iG2zFaNLK7yrzIBBBm7pXvaTs=
+			bRaNbTZM6+m/SOdnOnaPJDccztE03J+OTLCeaM7Z02U=
 			</data>
 		</dict>
 		<key>Modules/SenseQuinoaLib.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
